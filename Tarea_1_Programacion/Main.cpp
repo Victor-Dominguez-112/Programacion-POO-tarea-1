@@ -34,7 +34,7 @@ int main()
 	cout << endl;
 	//TAREA Dia_de_la_Semana
 
-
+	//TAREA ARRAYS 
 	bool arraydeBool[5];
 
 	MyArray(arraydeBool, 5);
@@ -52,6 +52,7 @@ int main()
 		arrayInt[i] = i;
 	}
 	MyArray(arrayInt, 10);
+	//TAREA ARRAYS 
 
 	return 0;
 }
