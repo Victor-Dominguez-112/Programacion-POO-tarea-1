@@ -9,30 +9,30 @@ int main()
 {
 	cout << endl;
 	//TAREA Dia_de_la_Semana
-	int dia = 4;
-	int hora = 5;
-	int minuto = 30;
+	int dia = 4; //seleccionamos un dia
+	int hora = 5; //le damos una hora al sistema
 
-	Lunes(dia);
-	Juevesmediodia(dia, hora, minuto);
-	Esmartes(dia, hora, minuto);
+	Lunes(dia);					//mandamos a llamar las funciones
+	Juevesmediodia(dia, hora);	//mandamos a llamar las funciones
+	Esmartes(dia, hora);		//mandamos a llamar las funciones
 
 	string Semana[7] = { "Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado" };
 
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 7; i++) //se entra al ciclo for y hasta encontrar el numero que coincida entre el array y el dia de la semana que le dimos nosotros   
 	{
 		if (dia == i)
 		{
-			cout << "Hoy si es " << Semana[i] << endl;
+			cout << "Hoy si es " << Semana[i] << endl; //imprecion con el dia o numero que coincida 
 		}
 		else
 		{
-			cout << "Hoy no es " << Semana[i] << endl;
+			cout << "Hoy no es " << Semana[i] << endl; //el resto de impreciones de los dias de la semana
 		}
 	}
 	cout << endl;
 	cout << endl;
 	//TAREA Dia_de_la_Semana
+
 
 	//TAREA ARRAYS 
 	bool arraydeBool[5];

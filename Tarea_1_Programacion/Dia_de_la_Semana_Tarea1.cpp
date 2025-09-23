@@ -8,30 +8,33 @@
 #include <iostream>
 using namespace std;
 
+//Función encargada de la impresión de los lunes de acuerdo al dia que este preestablecido
 void Lunes(int dia)
 {
-	if (dia == 1)
+	if (dia == 1) //si se cumple con el dia que colocamos se imprimira el mensaje 
 	{
 		cout << "Hoy es lunes" << endl;
 	}
 }
 
-void Juevesmediodia(int dia, int hora, int minuto)
+//Función encargada de la impresión del dia jueves si el dia preestablecido es 4 y la hora menor a 12 se imprimirá el mensaje
+void Juevesmediodia(int dia, int hora)
 {
-	if (dia == 4 && hora < 12 || (hora == 11 && minuto <= 59))
+	if (dia == 4 && hora < 12) //si el dia coincide con el dado y la hora no supera la establecida se mostrara el mensaje
 	{
-		cout << "Es jueves antes del mediodia" << endl;
+		cout << "Es jueves antes del mediodía" << endl;
 	}
 }
 
-void Esmartes(int dia, int hora, int minuto)
+//Función encargada de la impresión del martes si el dia preestablecido es 2 se imprimirá y si la hora es superior a las 12 imprimirá el segundo mensaje 
+void Esmartes(int dia, int hora)
 {
-	if (dia == 2)
+	if (dia == 2) //si el dia coincide se imprimira el mensaje 
 	{
 		cout << "Es martes" << endl;
 	}
-	else if (hora > 12 && minuto >= 0)
-	{
+	else if (hora >= 12)	//si ell dia coincide pero aparte de eso la hora colocada es mayor a 12h.
+	{						//este sera el mensaje que se mostrara puesto que cumple con el dia 2 pero la hora es superior.
 		cout << "No es martes" << endl;
 	}
 }

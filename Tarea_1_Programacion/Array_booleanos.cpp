@@ -20,6 +20,10 @@ void MyArray(bool Elarray[], int tamano)
 		{
 			Elarray[i] = false;
 		}
+		ñwefwoiehgfw
+			wmglwrgmwlg
+			fewlfmwlegfmw
+			w{f{{{{{kenkq}}}}}}
 		else
 		{
 			Elarray[i] = true;
