@@ -22,7 +22,7 @@ void Juevesmediodia(int dia, int hora)
 {
 	if (dia == 4 && hora < 12) //si el dia coincide con el dado y la hora no supera la establecida se mostrara el mensaje
 	{
-		cout << "Es jueves antes del mediodía" << endl;
+		cout << "Es jueves antes del mediodia" << endl;
 	}
 }
 

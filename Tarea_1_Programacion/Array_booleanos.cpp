@@ -16,15 +16,11 @@ void MyArray(bool Elarray[], int tamano)
 {
 	for (int i = 0; i < tamano; i++)
 	{
-		if (i % 2 == 0)
+		if (i % 2 == 0) //si nuestro índice es par lo vamos a guardar como false 
 		{
 			Elarray[i] = false;
 		}
-		ñwefwoiehgfw
-			wmglwrgmwlg
-			fewlfmwlegfmw
-			w{f{{{{{kenkq}}}}}}
-		else
+		else //si nuestro índice es impar entonces los guardaremos como true
 		{
 			Elarray[i] = true;
 		}
@@ -37,10 +33,10 @@ void MyArray(int Elarray[], int tamano)
 
 	for (int i = 0; i < tamano; i++)
 	{
-		*puntAux = *puntAux % 2;
+		*puntAux = *puntAux % 2; //aquí guardamos el residuo del resultado de dividir entre 2 para el par e impar 
 
-		cout << "Direccion: " << puntAux << " valor: " << *puntAux << endl;
-		puntAux++;
+		cout << "Direccion: " << puntAux << " valor: " << *puntAux << endl; //mandamos a imprimir la dirección de nuestra memoria y a su vez el valor de esa posición
+		puntAux++; //movemos el apuntador hacia la siguiente posición hasta terminar el ciclo 
 	}
 
 }
